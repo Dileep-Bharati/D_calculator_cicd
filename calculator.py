@@ -12,3 +12,11 @@ def divide(a,b):
         raise ValueError("Cannot divide by zero")
     return a/b
     
+def power(a, b):
+    return a ** b
+
+def modulus(a,b):
+    return a%b
+
+def squareroot(a):
+    return a ** 0.5
