@@ -2,7 +2,7 @@ name: Python CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, "feature/*"] #this is for dev A, dev B, dev C
   pull_request:
     branches: [main]
 
