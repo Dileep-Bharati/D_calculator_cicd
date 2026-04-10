@@ -14,9 +14,15 @@ def divide(a,b):
     
 def power(a, b):
     return a ** b
-
+    
 def modulus(a,b):
     return a%b
+
+def squareroot(a):
+    return a ** 0.5
+
+def modulus(a, b):
+    return a % b
 
 def squareroot(a):
     return a ** 0.5

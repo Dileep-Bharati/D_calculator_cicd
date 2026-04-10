@@ -26,3 +26,10 @@ def test_modulus():
 
 def test_squareroot():
     assert squareroot(9) == 3.0   # √9 = 3.0
+    assert power(2, 3) == 8   # 2³ = 8
+
+def test_modulus():
+    assert modulus(10, 3) == 1
+
+def test_squareroot():
+    assert squareroot(9) == 3.0   # √9 = 3.0
